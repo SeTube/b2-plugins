@@ -1,0 +1,22 @@
+.comment .gravatar img {
+    border-radius: 50%;
+}
+.comment-pendant-img{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    z-index: 1;
+    -webkit-user-drag: none;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin-left: 34px;
+    margin-top: 34px;
+}
+@media screen and (max-width: 768px){
+  .comment-pendant-img{
+        width: 51px;
+        height: 51px;
+        margin-left: 23px;
+        margin-top: 24px;
+    }  
+}

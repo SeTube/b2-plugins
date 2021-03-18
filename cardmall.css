@@ -1,0 +1,11 @@
+.comment-item .user-cardmall-url {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.comment-item .user-cardmall-url img {
+    width: 88px;
+    height: 50px;
+    -webkit-user-drag: none;
+}
