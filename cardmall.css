@@ -10,7 +10,7 @@
     -webkit-user-drag: none;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
     .comment-item .user-cardmall-url img {
         width: 63px;
         height: 35px;
