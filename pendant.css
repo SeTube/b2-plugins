@@ -1,22 +1,26 @@
-.comment .gravatar img {
-    border-radius: 50%;
+.comment .gravatar, .comment .gravatar img {
+    border-radius: 50%!important;
 }
 .comment-pendant-img{
-    width: 64px;
-    height: 64px;
+    width: 53px;
+    height: 53px;
     position: absolute;
     z-index: 1;
     -webkit-user-drag: none;
     -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin-left: 34px;
-    margin-top: 34px;
+    transform: translate(-50%,-50%) scale(1.1);
+    margin-left: 18px;
+    margin-top: 18px;
 }
 @media screen and (max-width: 768px){
-  .comment-pendant-img{
-        width: 51px;
-        height: 51px;
-        margin-left: 23px;
-        margin-top: 24px;
-    }  
+    .comment .gravatar {
+        left: 5px!important;
+        top: 5px!important;
+    }
+    .comment-pendant-img {
+        width: 44px;
+        height: 44px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
