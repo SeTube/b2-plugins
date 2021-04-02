@@ -9,8 +9,8 @@
     -webkit-user-drag: none;
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%) scale(1.1);
-    margin-left: 18px;
-    margin-top: 18px;
+    margin-left: 34px;
+    margin-top: 34px;
 }
 @media screen and (max-width: 768px){
     .comment .gravatar {
